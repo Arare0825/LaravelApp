@@ -16,3 +16,14 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// Route::resource('Records','RecordController')->only([
+//     'index','show','store'
+// ]);
+
+// Route::resource('Records','RecordsController')->except([
+//     'create','store','update','destroy'
+// ]);
+
+
+
