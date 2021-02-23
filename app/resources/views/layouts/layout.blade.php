@@ -14,7 +14,7 @@
 <body>
     <header class="navbar navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="{{ url('') }}">
+            <a class="navbar-brand" href="{{ url('/top') }}">
                 Laravel BBS
             </a>
         </div>
