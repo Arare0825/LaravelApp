@@ -12,7 +12,7 @@
                     <p class="card-text">
                     {{ Str::limit($post->body,100) }}
                     </p>
-                    <a class="card-link" href="{{ route('post.show', ['$id'=>$post->id]) }}">
+                    <a class="card-link" href="{{ route('post.show', ['id'=>$post->id]) }}">
                         続きを読む
                     </a>
                 </div>

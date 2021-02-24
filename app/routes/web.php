@@ -26,3 +26,7 @@ Route::get('posts', 'PostController@create')->name('post.create');
 Route::post('/', 'PostController@store')->name('post.store');
 
 Route::get('/posts/{id}', 'PostController@show')->name('post.show');
+
+// Route::post('comments', 'CommentsController@store')->name('comments.store');
+
+Route::post('comments', 'CommentsController@store')->name('comments.store');
